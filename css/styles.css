@@ -312,6 +312,7 @@ header {
 
 .tip-icon {
 	width: 30px;
+	min-width: 30px;
 	height: 30px;
 	margin-right: 10px;
 	background-color: #e94560;
