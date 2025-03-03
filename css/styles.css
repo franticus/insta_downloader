@@ -17,6 +17,10 @@ body {
 	position: relative;
 }
 
+a {
+	text-decoration: none;
+}
+
 .img_flex {
 	display: flex;
 	justify-content: center;
