@@ -119,10 +119,10 @@ header {
 	position: absolute;
 	top: -50%;
 	left: -50%;
-	width: 200%;
+	width: 1400px;
 	height: 200%;
 	background: radial-gradient(circle, rgba(233, 69, 96, 0.2), transparent);
-	transform: rotate(30deg);
+	transform: rotate(60deg);
 	pointer-events: none;
 }
 
@@ -373,5 +373,17 @@ footer a:active {
 
 	.large-image {
 		max-width: 30%;
+	}
+
+	.section::before {
+		content: '';
+		position: absolute;
+		top: -50%;
+		left: -50%;
+		width: 1400px;
+		height: 100%;
+		background: radial-gradient(circle, rgba(233, 69, 96, 0.2), transparent);
+		transform: rotate(60deg);
+		pointer-events: none;
 	}
 }
