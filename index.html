@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReelSnap - Catch Your Video Moments</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="aos.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
@@ -111,6 +111,19 @@
         </div>
       </section>
 
+      <!-- About Section (Alt Design) -->
+      <section class="section-alt" data-aos="fade-up" data-aos-duration="1000">
+        <h2>About ReelSnap</h2>
+        <p>
+          ReelSnap was born from a passion for making video content accessible
+          offline. Our mission is to provide a seamless, high-quality
+          downloading experience without the clutter of ads or subscriptions.
+          Whether you’re a casual viewer or a content curator, we’re here to
+          help you capture those fleeting moments that matter most.
+        </p>
+        <img src="img/about.jpg" alt="About Us" class="large-image fs" />
+      </section>
+
       <!-- Features Section -->
       <section class="section" data-aos="fade-up" data-aos-duration="1000">
         <h2>Why Choose ReelSnap?</h2>
@@ -158,11 +171,23 @@
             </p>
           </div>
         </div>
-        <img
-          src="https://placehold.jp/1a1a2e/e94560/600x400.png?text=Features+Preview"
-          alt="Features Preview"
-          class="large-image"
-        />
+        <div class="img_flex">
+          <img
+            src="img/feature_1.jpg"
+            alt="Features Preview"
+            class="large-image"
+          />
+          <img
+            src="img/feature_2.jpg"
+            alt="Features Preview"
+            class="large-image"
+          />
+          <img
+            src="img/feature_3.jpg"
+            alt="Features Preview"
+            class="large-image"
+          />
+        </div>
       </section>
 
       <!-- FAQ Section -->
@@ -196,60 +221,12 @@
         </div>
       </section>
 
-      <!-- About Section (Alt Design) -->
-      <section class="section-alt" data-aos="fade-up" data-aos-duration="1000">
-        <h2>About ReelSnap</h2>
-        <p>
-          ReelSnap was born from a passion for making video content accessible
-          offline. Our mission is to provide a seamless, high-quality
-          downloading experience without the clutter of ads or subscriptions.
-          Whether you’re a casual viewer or a content curator, we’re here to
-          help you capture those fleeting moments that matter most.
-        </p>
-        <img
-          src="https://placehold.jp/1a1a2e/e94560/600x400.png?text=About+Us"
-          alt="About Us"
-          class="large-image"
-        />
-      </section>
-
-      <!-- Reviews Section -->
-      <section class="section" data-aos="fade-up" data-aos-duration="1000">
-        <h2>What People Say</h2>
-        <p>
-          Don’t just take our word for it—here’s what real users are saying
-          about their experience with ReelSnap.
-        </p>
-        <div class="review-grid">
-          <div class="review-item" data-aos="zoom-in" data-aos-delay="100">
-            <img src="https://placehold.jp/60x60.png" alt="User 1" />
-            <h3>Jane D.</h3>
-            <p>
-              "I’ve tried many tools, but ReelSnap is by far the fastest and
-              easiest. The quality is amazing, and I use it every day!"
-            </p>
-          </div>
-          <div class="review-item" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://placehold.jp/60x60.png" alt="User 2" />
-            <h3>Mike R.</h3>
-            <p>
-              "No fuss, no muss—this tool just works. I’ve saved dozens of clips
-              without a single issue. Highly recommend!"
-            </p>
-          </div>
-          <div class="review-item" data-aos="zoom-in" data-aos-delay="300">
-            <img src="https://placehold.jp/60x60.png" alt="User 3" />
-            <h3>Anna K.</h3>
-            <p>
-              "The design is sleek, and it’s completely free. It’s become my
-              go-to for saving short videos offline."
-            </p>
-          </div>
-        </div>
-      </section>
-
       <!-- Tips Section (Alt Design) -->
-      <section class="section-alt" data-aos="fade-up" data-aos-duration="1000">
+      <section
+        class="section-alt section-alt-flex"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <h2>Tips for Best Experience</h2>
         <p>Maximize your ReelSnap usage with these handy tips:</p>
         <ul class="tips-list">
@@ -289,9 +266,9 @@
           </li>
         </ul>
         <img
-          src="https://placehold.jp/1a1a2e/e94560/600x400.png?text=Tips+Preview"
+          src="img/promo.png"
           alt="Tips Preview"
-          class="large-image"
+          class="large-image promo fs"
         />
       </section>
     </div>
@@ -306,8 +283,8 @@
       </p>
     </footer>
 
-    <script src="aos.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -26,6 +26,7 @@ body {
 
 .img_flex img {
 	width: auto;
+	height: fit-content;
 }
 
 /* Header */
@@ -136,6 +137,13 @@ header {
 	overflow: hidden;
 }
 
+.section-alt-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .section-alt::after {
 	content: '';
 	position: absolute;
@@ -165,6 +173,15 @@ header {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.large-image.fs {
+	max-width: 100%;
+}
+
+.large-image.promo {
+	border: none;
+	box-shadow: none;
+}
+
 /* Download Section */
 .download-section {
 	display: flex;
@@ -179,8 +196,8 @@ header {
 	padding: 15px;
 	border: none;
 	border-radius: 50px;
-	background: var(--mid-tone);
-	color: var(--text-light);
+	background: #fff;
+	color: #333;
 	font-size: 1.1rem;
 	margin-bottom: 20px;
 	outline: none;
